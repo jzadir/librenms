@@ -272,6 +272,9 @@ return [
                 'configs' => [
                     'description' => 'Provider configs',
                 ],
+                'auth.socialite.register_user_level' => [
+                    'description' => 'Access Level for the new resgistered user'
+                ],
             ],
         ],
         'auth_ad_base_dn' => [
