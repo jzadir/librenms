@@ -386,7 +386,13 @@
             "type": "boolean",
             "default": false
         },
-
+        "auth.socialite.register_user_level": {
+            "group": "auth",
+            "section": "socialite",
+            "order": 3,
+            "type": "integer",
+            "default": 1
+        },
         "auth.socialite.configs": {
             "group": "auth",
             "section": "socialite",
