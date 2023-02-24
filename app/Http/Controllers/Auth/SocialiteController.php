@@ -122,6 +122,7 @@ class SocialiteController extends Controller
         $user->username = $this->buildUsername();
         $user->email = $this->socialite_user->getEmail();
         $user->realname = $this->buildRealName();
+        $user->level = LibreNMSConfig::get('auth.socialite.register_user_level',1);
 
         $user->save();
     }
