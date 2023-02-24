@@ -273,7 +273,8 @@ return [
                     'description' => 'Provider configs',
                 ],
                 'auth.socialite.register_user_level' => [
-                    'description' => 'Access Level for the new resgistered user'
+                    'description' => 'Access Level for the new resgistered user',
+                    'help' => 'The Values are 1 - Normal, 5 - Global Read and 10 - Admin'
                 ],
             ],
         ],
